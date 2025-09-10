@@ -1,5 +1,5 @@
 eval $(/opt/homebrew/bin/brew shellenv)
-eval "$(oh-my-posh init zsh --config ${HOME}/.config/oh-my-posh/oh-my-posh.toml)"
+eval "$(oh-my-posh init zsh --config ${HOME}/.config/ohmyposh/ohmyposh.toml)"
 
 # Set zinit directory
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
