@@ -1,0 +1,106 @@
+#:schema https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+
+version = 2
+final_space = true
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = 'os'
+    style = 'diamond'
+    powerline_symbol = ''
+    foreground = 'p:wight'
+    background = 'p:blue'
+    leading_diamond = ''
+    template = '{{.Icon}} '
+
+  [[blocks.segments]]
+    type = 'session'
+    style = 'diamond'
+    powerline_symbol = ''
+    foreground = 'p:text'
+    background = 'p:blue'
+    template = '{{ .UserName }}'
+
+  [[blocks.segments]]
+    type = 'path'
+    style = 'powerline'
+    powerline_symbol = ''
+    foreground = 'p:text'
+    background = 'p:pink'
+    template = ' {{ .Path }}'
+
+    [blocks.segments.properties]
+      folder_icon = '....'
+      home_icon = '~'
+      style = 'agnoster_short'
+
+  [[blocks.segments]]
+    type = 'git'
+    style = 'powerline'
+    powerline_symbol = ''
+    foreground = 'p:text'
+    background = 'p:lavender'
+    template = ' {{ .HEAD }}'
+
+    [blocks.segments.properties]
+      branch_icon = ' '
+      cherry_pick_icon = ' '
+      commit_icon = ' '
+      fetch_status = false
+      fetch_upstream_icon = false
+      merge_icon = ' '
+      no_commits_icon = ' '
+      rebase_icon = ' '
+      revert_icon = ' '
+      tag_icon = ' '
+
+
+[[blocks]]
+  type = 'rprompt'
+
+  [[blocks.segments]]
+    type = 'node'
+    style = 'plain'
+    foreground = 'p:green'
+    background = 'transparent'
+    template = ' '
+
+    [blocks.segments.properties]
+      display_mode = 'files'
+      fetch_package_manager = false
+      home_enabled = false
+
+  [[blocks.segments]]
+    type = 'go'
+    style = 'plain'
+    foreground = 'p:blue'
+    background = 'transparent'
+    template = ' '
+
+    [blocks.segments.properties]
+      fetch_version = false
+
+  [[blocks.segments]]
+    type = 'python'
+    style = 'plain'
+    foreground = 'p:yellow'
+    background = 'transparent'
+    template = ' '
+
+    [blocks.segments.properties]
+      display_mode = 'files'
+      fetch_version = false
+      fetch_virtual_env = false
+
+[palette]
+  blue = '#8AADF4'
+  lavender = '#B7BDF8'
+  os = '#ACB0BE'
+  pink = '#F5BDE6'
+  text = '#494D64'
+  wight = '#FFFFFF'
+
