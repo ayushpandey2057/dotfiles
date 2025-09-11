@@ -13,7 +13,7 @@
     compression = 9  # trade cpu for network
     fsync = none
     whitespace = error  # threat incorrect whitespace as errors
-  preloadindex = true  # preload index for faster status
+    preloadindex = true  # preload index for faster status
 
   [advice]  # disable advices
     addEmptyPathspec = false
