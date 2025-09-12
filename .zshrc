@@ -1,4 +1,3 @@
-changes
 eval $(/opt/homebrew/bin/brew shellenv)
 eval "$(oh-my-posh init zsh --config ${HOME}/.config/ohmyposh/ohmyposh.toml)"
 
