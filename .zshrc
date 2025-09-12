@@ -64,4 +64,4 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 export PAGER=less
-
+export GPG_TTY=$(tty)

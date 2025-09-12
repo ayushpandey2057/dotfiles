@@ -51,7 +51,7 @@
     autoSetupRemote = true  # easier to push new branches
     default = current  # push only current branch by default
     followTags = true  # push also tags
-    gpgSign = true
+    gpgSign = false
 
 [pull]
     rebase = true

@@ -1,2 +1,4 @@
 .DS_Store
 .config/tmux/plugins
+.config/nvim/lazy-lock.json
+.config/nvim/lazyvim.json
