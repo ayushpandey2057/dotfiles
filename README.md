@@ -1,6 +1,19 @@
 # ⚙️ Dotfiles (Dev Environment)
 
-A curated and automated developer setup using GNU Stow for clean, modular configuration management. Currently only works on macOS with future plans for Linux support.
+<p>
+  A curated and automated developer setup using <b>GNU Stow</b> for clean, modular configuration management.
+  <br/>
+  Currently macOS-only with planned Linux support.
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Platform-macOS-blue" />
+  <img src="https://img.shields.io/badge/Managed%20by-GNU%20Stow-orange" />
+  <img src="https://img.shields.io/badge/Shell-Zsh-green" />
+  <img src="https://img.shields.io/github/last-commit/ayushpandey2057/dotfiles" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+</p>
+
 
 ---
 
@@ -94,10 +107,10 @@ Feel free to fork this repo and adapt it to your workflow. Dotfiles are highly p
 
 ## 📜 License
 
-MIT License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 
 ## 💡 Future Improvements
 - Linux support (different package managers)
 - Selective package installation
-- Dotfiles managers like chezmoi
+- Use dotfiles managers like chezmoi
