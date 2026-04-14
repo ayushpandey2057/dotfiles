@@ -50,9 +50,9 @@ brew install --cask \
   ghostty iina medis slack steam visual-studio-code whatsapp yaak
 echo "✅ Brew cask apps installed."
 
------------------------------------
-📁 Clone Dotfiles Repo
------------------------------------
+# -----------------------------------
+# 📁 Clone Dotfiles Repo
+# -----------------------------------
 echo "🔍 Checking for dotfiles repo..."
 if [ ! -d "$HOME/dotfiles" ]; then
   echo "📥 Cloning dotfiles repo..."
