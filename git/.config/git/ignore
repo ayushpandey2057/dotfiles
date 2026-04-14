@@ -1,0 +1,168 @@
+# === OS Generated Files ===
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swp
+*.swo
+
+# === Programming Languages ===
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.log
+
+# C++
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.obj
+
+# Ruby
+log/
+tmp/
+public/assets/
+public/packs/
+node_modules/
+.bundle/
+*.gem
+*.rbc
+.ruby-version
+
+# JavaScript (React, Vue, Angular)
+build/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Go
+*.exe
+*.exe~
+*.out
+*.a
+*.o
+
+# === IDE/Editor Configurations ===
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains IDEs
+*.iml
+
+# === Build/Dependency Folders ===
+
+# Node.js
+node_modules/
+
+# Python Virtual Environments
+venv/
+env/
+.venv/
+env.bak/
+
+# Java Maven / Gradle
+target/
+build/
+.gradle/
+
+# Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# === Logs ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+
+# === Temporary Files ===
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.patch
+*.diff
+
+# === Miscellaneous ===
+*.class
+*.exe
+*.out
+*.pdb
+*.app
+*.dmg
+*.7z
+*.tar.gz
+*.zip
+*.pdf
+*.docx
+
+# === Archive Files ===
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.rar
+
+# === Generated Documentation ===
+*.pdf
+*.docx
+*.html
+
+# === Other ===
+*.pid
+*.seed
+*.log
+*.sql
+*.sqlite
+*.db
+*.sublime-workspace
+*.sublime-project
+
